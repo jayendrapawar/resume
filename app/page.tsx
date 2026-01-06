@@ -67,7 +67,7 @@ export default function Resume() {
           <h2 className="text-lg sm:text-xl font-semibold mb-5">Experience</h2>
 
           <div className="mb-6">
-            <h3 className="font-semibold text-base sm:text-lg">
+            <h3 className="text-md text-base text-gray-700 sm:text-lg">
               <strong>IBM — Software Engineer Backend (Specialist) </strong>
             </h3>
             <p className="text-xs sm:text-sm text-gray-500">
@@ -83,7 +83,7 @@ export default function Resume() {
           </div>
 
           <div className="mb-6">
-            <h3 className="font-semibold text-base sm:text-lg">
+            <h3 className="text-md text-base text-gray-700 sm:text-lg">
               <strong>Freshworks — Software Engineer Backend</strong>
             </h3>
             <p className="text-xs sm:text-sm text-gray-500">
