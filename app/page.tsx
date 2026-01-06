@@ -23,7 +23,7 @@ export default function Resume() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/jayendra-pawar"
+              href="https://www.linkedin.com/in/jayendrapawar"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
