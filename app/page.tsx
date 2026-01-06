@@ -68,7 +68,7 @@ export default function Resume() {
 
           <div className="mb-6">
             <h3 className="font-semibold text-base sm:text-lg">
-              IBM — Software Engineer Backend (Specialist)
+              <strong>IBM — Software Engineer Backend (Specialist) </strong>
             </h3>
             <p className="text-xs sm:text-sm text-gray-500">
               Oct 2024 – Present · Bengaluru, India
@@ -84,7 +84,7 @@ export default function Resume() {
 
           <div className="mb-6">
             <h3 className="font-semibold text-base sm:text-lg">
-              Freshworks — Software Engineer Backend
+              <strong>Freshworks — Software Engineer Backend</strong>
             </h3>
             <p className="text-xs sm:text-sm text-gray-500">
               Jul 2022 – Aug 2024 · Bengaluru, India
