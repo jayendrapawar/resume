@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     url: "https://jayendrapawar-resume.vercel.app",
     images: [
       {
-        url: "/JayendraPawarCC.png",
+        url: "https://jayendrapawar-resume.vercel.app/JayendraPawarCC.png",
         width: 1200,
         height: 630,
         alt: "Jayendra Pawar Resume & Portfolio",
