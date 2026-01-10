@@ -17,7 +17,7 @@ export default function Resume() {
           </p>
 
           <p className="mt-2 text-xs sm:text-sm text-gray-500">
-            Open to Relocation (Dubai / UAE) · Open to Employer-Sponsored UAE Visa
+            Bengaluru, Karnataka, India · Open to Relocation (Dubai / UAE)
           </p>
 
           <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-gray-600">
