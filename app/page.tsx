@@ -17,11 +17,18 @@ export default function Resume() {
           </p>
 
           <p className="mt-2 text-xs sm:text-sm text-gray-500">
-            Bengaluru, India · Open to Relocation (Dubai / UAE) · Open to Employer-Sponsored UAE Visa
+            Open to Relocation (Dubai / UAE) · Open to Employer-Sponsored UAE Visa
           </p>
 
           <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-gray-600">
-            <span>✉️ jayendrapawar00@gmail.com</span>
+            <a
+              href="mailto:jayendrapawar00@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Email
+            </a>
             <span>|</span>
             <a
               href="https://www.linkedin.com/in/jayendrapawar"
