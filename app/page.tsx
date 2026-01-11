@@ -9,7 +9,7 @@ export default function Resume() {
           </h1>
 
           <p className="mt-3 text-base sm:text-lg font-semibold text-gray-800">
-            Software Development Engineer (Backend)
+            Software Engineer (Backend· DevOps)
           </p>
 
           <p className="mt-1 text-sm sm:text-base text-gray-600">
