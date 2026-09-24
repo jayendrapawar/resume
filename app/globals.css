@@ -8,8 +8,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-carlito);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +21,19 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-carlito), Calibri, ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Scale down the entire page on very small screens to preserve layout ratio */
+.resume-scaler {
+  width: 100%;
+}
+
+@media (max-width: 374px) {
+  .resume-scaler {
+    transform-origin: top center;
+    transform: scale(0.82);
+    width: calc(100% / 0.82);
+    margin-bottom: calc(-18% * 2);
+  }
 }
