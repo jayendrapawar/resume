@@ -9,6 +9,9 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-carlito);
+  /* Bump text-xs and text-sm up by 0.5px for better readability */
+  --text-xs: 0.78125rem;   /* 12.5px  (was 12px)  */
+  --text-sm: 0.90625rem;   /* 14.5px  (was 14px)  */
 }
 
 @media (prefers-color-scheme: dark) {
