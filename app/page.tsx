@@ -77,7 +77,7 @@ export default function Resume() {
             </div>
 
             {/* Distributed Worker Orchestration */}
-            <p className="mt-3 text-xs sm:text-sm font-bold text-[#2e5aac]">Distributed Worker Orchestration</p>
+            <p className="mt-3 text-[13px] sm:text-[15px] font-bold text-[#2e5aac]">Distributed Worker Orchestration</p>
             <ul className="list-disc pl-4 sm:pl-5 mt-1 space-y-1.5 text-xs sm:text-sm text-gray-700 leading-relaxed">
               <li>
                 Architected a highly available, <strong>Go-based Kubernetes controller</strong> for{" "}
@@ -103,7 +103,7 @@ export default function Resume() {
             </ul>
 
             {/* Instance Networking & Access Control */}
-            <p className="mt-3 text-xs sm:text-sm font-bold text-[#2e5aac]">Instance Networking &amp; Access Control</p>
+            <p className="mt-3 text-[13px] sm:text-[15px] font-bold text-[#2e5aac]">Instance Networking &amp; Access Control</p>
             <ul className="list-disc pl-4 sm:pl-5 mt-1 space-y-1.5 text-xs sm:text-sm text-gray-700 leading-relaxed">
               <li>
                 Led the <strong>end-to-end development</strong> of <strong>instance network controls in Go</strong>,
@@ -125,7 +125,7 @@ export default function Resume() {
             </ul>
 
             {/* Cloud Engineering & Reliability */}
-            <p className="mt-3 text-xs sm:text-sm font-bold text-[#2e5aac]">Cloud Infrastructure &amp; Reliability</p>
+            <p className="mt-3 text-[13px] sm:text-[15px] font-bold text-[#2e5aac]">Cloud Infrastructure &amp; Reliability</p>
             <ul className="list-disc pl-4 sm:pl-5 mt-1 space-y-1.5 text-xs sm:text-sm text-gray-700 leading-relaxed">
               <li>
                 Led <strong>compute migration &amp; resource optimization</strong>, reducing{" "}
@@ -159,7 +159,7 @@ export default function Resume() {
               <span className="text-xs sm:text-sm text-gray-500 shrink-0">Bengaluru, Karnataka</span>
             </div>
 
-            <p className="mt-3 text-xs sm:text-sm font-bold text-[#2e5aac]">Payment Services &amp; Integrations</p>
+            <p className="mt-3 text-[13px] sm:text-[15px] font-bold text-[#2e5aac]">Payment Services &amp; Integrations</p>
             <ul className="list-disc pl-4 sm:pl-5 mt-1 space-y-1.5 text-xs sm:text-sm text-gray-700 leading-relaxed">
               <li>
                 Engineered a <strong>highly available distributed payment service</strong> integrating{" "}
@@ -170,7 +170,7 @@ export default function Resume() {
               <li>
                 Developed a <strong>scalable asynchronous notification service</strong>, incorporating{" "}
                 <strong>API specifications</strong>, <strong>ERD designs</strong>, and workflows using <strong>gRPC</strong>{" "}
-                and <strong>schedulers</strong>, supporting <strong>150K+ customers</strong>.
+                and <strong>Redis-backed schedulers </strong>, supporting <strong>150K+ customers</strong>.
               </li>
               <li>
                 Led the <strong>migration of payment services</strong> to <strong>EKS (Kubernetes)</strong>, achieving a{" "}
