@@ -21,10 +21,10 @@ export default function Resume() {
           {/* Mobile: two lines | Desktop: one line */}
           <div className="sm:hidden mt-2">
             <p className="text-xs font-bold text-[#2e5aac] leading-snug">Software Engineer</p>
-            <p className="text-xs font-bold text-[#2e5aac] leading-snug">Backend (Go), Kubernetes &amp; Distributed Systems</p>
+            <p className="text-xs font-bold text-[#2e5aac] leading-snug">Go | Distributed Systems | Kubernetes | Cloud Infrastructure</p>
           </div>
           <p className="hidden sm:block mt-2 text-sm md:text-base font-bold text-[#2e5aac] leading-snug">
-            Software Engineer — Backend (Go), Kubernetes &amp; Distributed Systems
+            Software Engineer — Go | Distributed Systems | Kubernetes | Cloud Infrastructure
           </p>
 
           {/* Mobile: two stacked lines | sm+: single inline row */}
@@ -76,12 +76,12 @@ export default function Resume() {
               <span className="text-xs sm:text-sm text-gray-500 shrink-0">Bengaluru, Karnataka</span>
             </div>
 
-            {/* DBaaS */}
-            <p className="mt-3 text-xs sm:text-sm font-bold italic text-[#2e5aac]">DBaaS Kubernetes Controllers</p>
+            {/* Distributed Worker Orchestration */}
+            <p className="mt-3 text-xs sm:text-sm font-bold text-[#2e5aac]">Distributed Worker Orchestration</p>
             <ul className="list-disc pl-4 sm:pl-5 mt-1 space-y-1.5 text-xs sm:text-sm text-gray-700 leading-relaxed">
               <li>
-                Architected and owned a highly available, <strong>Go-based Kubernetes controller</strong> for{" "}
-                <strong>750+ workers</strong>, automating <strong>worker lifecycle management</strong> (provisioning,
+                Architected a highly available, <strong>Go-based Kubernetes controller</strong> for{" "}
+                <strong>10K+ workers</strong>, automating <strong>worker lifecycle management</strong> (provisioning,
                 replacement &amp; decommissioning) and <strong>reducing provisioning latency by 30%</strong>.
               </li>
               <li>
@@ -91,8 +91,8 @@ export default function Resume() {
               </li>
               <li>
                 Designed a <strong>zone-aware auto-scaling strategy</strong> balancing resource utilization vs.
-                availability across <strong>multi-AZ clusters</strong>, sustaining <strong>99.9% uptime</strong> while{" "}
-                <strong>eliminating over-provisioning</strong>.
+                availability across <strong>multi-AZ clusters</strong>, sustaining <strong>99.9% uptime</strong> while
+                eliminating over-provisioning.
               </li>
               <li>
                 Developed an <strong>integration-test framework</strong> on <strong>dedicated Kubernetes clusters</strong>,
@@ -102,38 +102,38 @@ export default function Resume() {
               </li>
             </ul>
 
-            {/* CBR */}
-            <p className="mt-3 text-xs sm:text-sm font-bold italic text-[#2e5aac]">Context-Based Restrictions (CBR)</p>
+            {/* Instance Networking & Access Control */}
+            <p className="mt-3 text-xs sm:text-sm font-bold text-[#2e5aac]">Instance Networking &amp; Access Control</p>
             <ul className="list-disc pl-4 sm:pl-5 mt-1 space-y-1.5 text-xs sm:text-sm text-gray-700 leading-relaxed">
               <li>
-                Driving the <strong>end-to-end development</strong> of <strong>CBR Dedicated Instances</strong>, covering{" "}
-                <strong>RESTful API design</strong>, <strong>event-driven network IP updates</strong>,{" "}
+                Led the <strong>end-to-end development</strong> of <strong>instance network controls in Go</strong>,
+                covering <strong>REST API design</strong>, <strong>event-driven network updates</strong>,{" "}
                 <strong>technical specifications</strong> and <strong>infrastructure planning</strong>; delivered
                 SDK/CLI support for <strong>enterprise customers</strong>.
               </li>
               <li>
-                Engineered <strong>Instance IP state synchronization</strong> using <strong>Kubernetes informers</strong>,{" "}
-                <strong>rate-limited queues</strong> and <strong>batch processing</strong>, enabling deduplication,
-                idempotency, retries, and failure isolation to meet a <strong>10s CBR zone-consistency SLA</strong>.
+                Engineered <strong>instance network-state synchronization</strong> using{" "}
+                <strong>Kubernetes informers</strong>, <strong>rate-limited queues</strong> and{" "}
+                <strong>batch processing</strong>, enabling deduplication, idempotency, retries, and failure isolation
+                to meet a <strong>10s network-state consistency SLA</strong>.
               </li>
               <li>
-                Implemented <strong>CBR policy enforcement</strong> for <strong>instance-level network policies</strong>,
-                replacing broad service-wide permissions with <strong>fine-grained access control</strong> across CDP
-                production deployments.
+                Implemented <strong>instance-level network policy enforcement</strong>, evaluating user-defined rules
+                on connection requests to authorize <strong>instance-to-instance connectivity</strong>, replacing broad
+                service-wide permissions with <strong>fine-grained access controls</strong>.
               </li>
             </ul>
 
-            {/* DevOps */}
-            <p className="mt-3 text-xs sm:text-sm font-bold italic text-[#2e5aac]">DevOps, CI/CD &amp; Infrastructure</p>
+            {/* Cloud Engineering & Reliability */}
+            <p className="mt-3 text-xs sm:text-sm font-bold text-[#2e5aac]">Cloud Infrastructure &amp; Reliability</p>
             <ul className="list-disc pl-4 sm:pl-5 mt-1 space-y-1.5 text-xs sm:text-sm text-gray-700 leading-relaxed">
               <li>
-                Led <strong>Gen3-to-Flex migration</strong> &amp; <strong>Sandbox decommission</strong>, cutting{" "}
-                <strong>infra costs ~14% ($166K savings)</strong> while mitigating outage risks.
+                Led <strong>compute migration &amp; resource optimization</strong>, reducing{" "}
+                <strong>infrastructure costs by ~14% ($166K)</strong> while mitigating outage risks.
               </li>
               <li>
-                Built a <strong>Slack-based ChatOps</strong> platform automating <strong>30+ Kubernetes</strong> and{" "}
-                <strong>managed-services</strong> workflows, <strong>reducing operational toil</strong> and accelerating
-                incident resolution.
+                Built a <strong>Slack-based ChatOps</strong> platform providing <strong>30+ Kubernetes &amp; cloud-service
+                operations</strong>, reducing operational toil and accelerating incident resolution.
               </li>
               <li>
                 Standardized <strong>Deployable Architecture (IaC) modules</strong>, enabling{" "}
@@ -141,8 +141,8 @@ export default function Resume() {
                 teams while strengthening system resilience.
               </li>
               <li>
-                Established <strong>GitOps-based CI/CD pipelines</strong> with <strong>GitHub Actions</strong>,
-                pre-merge validation, security scans, and quality gates, enabling{" "}
+                Established <strong>CI/CD pipelines</strong> using <strong>GitHub Actions</strong>, with pre-merge
+                validation, security scanning, and quality gates, enabling{" "}
                 <strong>zero-downtime deployments</strong> across <strong>on-premises Kubernetes clusters</strong>.
               </li>
             </ul>
@@ -159,15 +159,16 @@ export default function Resume() {
               <span className="text-xs sm:text-sm text-gray-500 shrink-0">Bengaluru, Karnataka</span>
             </div>
 
-            <p className="mt-3 text-xs sm:text-sm font-bold italic text-[#2e5aac]">Payment Services &amp; Integrations</p>
+            <p className="mt-3 text-xs sm:text-sm font-bold text-[#2e5aac]">Payment Services &amp; Integrations</p>
             <ul className="list-disc pl-4 sm:pl-5 mt-1 space-y-1.5 text-xs sm:text-sm text-gray-700 leading-relaxed">
               <li>
-                Engineered a <strong>highly available microservice</strong> for <strong>Stripe integration</strong> in{" "}
-                <strong>FreshPay</strong>, enabling critical <strong>payment workflows</strong> such as bind flow,
-                authorization, tokenization, payments, and refunds; serving <strong>4.9 million users</strong> in Europe.
+                Engineered a <strong>highly available distributed payment service</strong> integrating{" "}
+                <strong>Stripe APIs</strong> in <strong>FreshPay</strong>, enabling critical{" "}
+                <strong>payment workflows</strong> such as bind flow, authorization, tokenization, payments, and
+                refunds; serving <strong>4.9 million users</strong> in Europe.
               </li>
               <li>
-                Developed a <strong>scalable payment notification service</strong>, incorporating{" "}
+                Developed a <strong>scalable asynchronous notification service</strong>, incorporating{" "}
                 <strong>API specifications</strong>, <strong>ERD designs</strong>, and workflows using <strong>gRPC</strong>{" "}
                 and <strong>schedulers</strong>, supporting <strong>150K+ customers</strong>.
               </li>
@@ -200,7 +201,7 @@ export default function Resume() {
           {/* Mobile: stacked | sm+: two-column */}
           <div className="block sm:hidden">
             <p className="text-sm sm:text-base font-bold text-[#1f2a44] tracking-normal">National Institute of Technology, Jaipur</p>
-            <p className="text-xs italic text-gray-700 mt-0.5">B.Tech in Mechanical Engineering; Minor in Computer Science</p>
+            <p className="text-xs italic text-gray-700 mt-0.5">Bachelor of Technology in Mechanical Engineering; Minor in Computer Science</p>
             <ul className="list-disc pl-4 mt-1 text-xs text-gray-700 leading-relaxed">
               <li>
                 Awarded <strong>Aditya Birla Scholarship</strong> — ranked among the{" "}
@@ -233,10 +234,10 @@ export default function Resume() {
           </h2>
           <ul className="list-disc pl-4 sm:pl-5 space-y-1.5 text-xs sm:text-sm text-gray-700 leading-relaxed">
             <li><strong>Programming Languages:</strong> Go, Python, Rust, C/C++</li>
-            <li><strong>Backend &amp; Distributed Systems:</strong> REST APIs, gRPC, WebSockets, Kafka, RabbitMQ, Event-Driven Architectures</li>
-            <li><strong>Cloud &amp; Infrastructure:</strong> Kubernetes, Docker, Linux, Helm, Terraform, GitHub Actions, Jenkins, GitOps</li>
+            <li><strong>Backend &amp; Distributed Systems:</strong> REST APIs, gRPC, WebSockets, Kafka, RabbitMQ, Concurrency, Event-Driven Architectures</li>
+            <li><strong>Cloud &amp; Infrastructure:</strong> Kubernetes, Docker, Linux, Helm, Terraform, GitHub Actions, Jenkins, Reliability Engineering</li>
             <li><strong>Databases &amp; Observability:</strong> MySQL (Indexing, Partitioning), Redis, Prometheus, Grafana, Monitoring &amp; Alerting</li>
-            <li><strong>Core Areas:</strong> System Design, Microservices, Reliability Engineering, Performance Optimization</li>
+            <li><strong>Core Areas:</strong> Data Structures &amp; Algorithms, Object-Oriented Design, System Design, Microservices, Performance Optimization</li>
           </ul>
         </section>
 
